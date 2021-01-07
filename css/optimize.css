@@ -1,0 +1,26 @@
+.optimize__content{
+    background-image: url(../img/optimizebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 117px 38px;
+    border-radius: 6px;
+    text-align: center;
+}
+.optimize__title{
+    font-size: 48px;
+line-height: 64px;
+color: var(--color-black);
+text-align: center;
+margin-bottom: 54px;
+}
+
+@media screen and (max-width:576px){
+    .optimize__title{
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    .optimize__content{
+        padding: 50px 0;
+    }
+}

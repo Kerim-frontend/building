@@ -1,0 +1,39 @@
+@import 'header.css';
+@import 'variables.css';
+@import 'components.css';
+@import 'hero.css';
+@import 'advantages.css';
+@import 'construction.css';
+@import 'clean.css';
+@import 'sponsor.css';
+@import 'constructioncontrol.css';
+@import 'delivery.css';
+@import 'Reliability.css';
+@import 'building.css';
+@import 'work.css';
+@import 'profits.css';
+@import 'optimize.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+@media screen and (max-width: 576px) {
+
+}

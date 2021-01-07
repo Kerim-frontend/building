@@ -1,0 +1,95 @@
+.btn-black ,
+.btn-white{
+    color: var(--color-white);
+    font-family: "Arial Regular";
+    padding: 12px 20px;
+    background-color: var(--color-black);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    transition: all 0.6s;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-black:hover {
+    color: var(--color-black);
+    background-color: var(--color-white);
+}
+.btn-white {
+    color: var(--color-black);
+    border: 1px solid var(--color-black);
+    background-color: var(--color-white);
+}
+.btn-white:hover {
+    color: var(--color-white);
+    background-color: var(--color-oronge);
+    border: 1px solid transparent;
+}
+.row{
+    display: flex;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-6{
+    width: 50%;
+}
+.col-5{
+    width: 40%;
+}
+.col-7{
+width: 60%;
+}
+
+.title{
+    font-size: 32px;
+line-height: 48px;
+color: var(--color-black);
+text-align: center;
+font-weight: 400;
+}
+@media screen and (max-width: 1257px) {
+    .col-7,
+    .col-5{
+   width: 100%;
+    }
+}
+@media screen and (max-width: 986px) {
+   
+    .col-6{
+        width: 100%;
+    }.row{
+        flex-wrap: wrap;
+    }
+    .col-4{
+     width: 50%;
+    }
+}
+@media screen and (max-width: 776px) {
+    .col-4{
+        width: 100%;
+       }
+
+
+}
+@media screen and (max-width: 576px) {
+    .btn-black ,
+    .btn-white{
+        padding: 8px 16px;
+    }
+    
+
+    .col-6,
+    .col-7,
+    .col-5{
+        width: 100%;
+    }
+    .title{
+        font-size: 28px;
+        line-height: 1.3;
+    }
+}

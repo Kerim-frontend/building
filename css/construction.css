@@ -1,0 +1,19 @@
+.construction{
+text-align: center;
+}
+
+.construction__desc{
+    margin: 16px auto 40px;
+    font-size: 20px;
+    line-height: 32px;
+color: var(--color-gray);
+max-width:1015px;
+font-weight: 400;
+}
+
+@media screen and (max-width: 1206px) {
+.construction__img{
+max-width: 100%;
+}
+
+}

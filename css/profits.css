@@ -1,0 +1,149 @@
+.profits {
+    padding: 96px 0 149px;
+}
+.profits__desc {
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-black);
+    margin-top: 17px;
+}
+.profits__row {
+    margin-top: 55px;
+}
+.profits__item img {
+width: 48px;
+height: 48px;
+margin-right: 16px;
+}
+.profits__item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.profits__item h3 {
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.slider__wrapper{
+    padding: 60px 92px 97px 87px;
+    background: #F6F8F9;
+border-radius: 5px;
+position: relative;
+}
+.slider__item{
+    outline: none;
+  
+}
+.slider__text {
+    color: var(--color-black);
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+   
+}
+.slider__wrapper::before {
+ content:"";
+ position: absolute;
+ width: 100px;
+ height: 77px;
+ background-image: url(../img/quotes.png);
+ left: 42px;
+ top: 46px;
+
+}
+.slider__inner{
+    display: flex;
+   padding-top: 28px;
+}
+.slider__avatar{
+    object-fit: contain;
+    margin-right: 8px;
+}
+.slider__name{  
+font-size: 16px;
+line-height: 19px;  
+}
+.slider__position{
+    font-size: 16px;
+line-height: 19px;
+color: var(--color-gray);
+}
+.profits-col7{
+    margin-right: -80px;
+    margin-left: 77px;
+}
+.slider__wrapper .slick-dots{
+    list-style: none;
+    display: flex;
+     margin-top: 28px;
+}
+.slider__wrapper .slick-dots button{
+    width: 8px;
+    height: 8px;
+    background: rgba(3, 111, 199, 0.2);
+    margin-right: 8px;
+    font-size: 0;
+    border: none;
+    outline: none;   
+    border-radius: 50%;
+}
+.slider__wrapper .slick-dots .slick-active button {
+      background: #036FC7;
+}
+.profits__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 86px;
+}
+.profits__footer-item{
+    width: 30%;
+    margin-top: 41px;
+    text-align: center;
+}
+.profits__footer-decr{
+  font-size: 16px;
+line-height: 19px;
+color: var(--color-gray);
+max-width: 139px;
+text-align: center;
+margin: 0 auto;
+margin-top: 32px;
+}
+
+@media screen and (max-width: 1257px) {
+    .profits-col7{
+        margin-right: 0;
+        margin-left:0;
+    }
+    .profits__row{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 576px) {
+  
+    .slider__wrapper{
+        padding: 20px;
+    }
+    .slider__text{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .slider__wrapper::before {
+        display: none;
+    }
+    .profits__footer{
+        flex-direction: column;
+
+    }
+    .profits__footer-item{
+        width: 100%;
+    }
+    .profits__footer {
+        margin-top: 0;
+    }
+}
